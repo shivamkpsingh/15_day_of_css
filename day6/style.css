@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-size: 1.2rem;
+}
+.layout1 header {
+  background: #93cee2;
+  margin: 0px 0px 20px 0px;
+}
+
+.layout1 article {
+  width: 58%;
+  float: left;
+  background-color: #93cee2;
+  margin: 0px 20px 20px 0px;
+  height: 140px;
+  text-align: center;
+}
+
+.layout1 aside {
+  width: 40%;
+  float: right;
+  background: #93cee2;
+  height: 86px;
+  text-align: center;
+}
+
+.layout1 footer {
+  clear: both;
+  background: #93cee2;
+  text-align: center;
+  height: 40px;
+}
+
+
+.layout2 header {
+  display: flex;
+}
+
+.layout2 header .logo {
+  width: 20%;
+  background-color: #93cee2;
+  margin: 0px 20px 0px 0px;
+  text-align: center;
+}
+.layout2 header nav {
+  height: 40px;
+  width: 80%;
+  background-color: #93cee2;
+}
+.layout2 header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.layout2 header nav ul li {
+  margin: 0px 10px 0px 0px;
+}
+.layout2 header nav ul li a {
+  text-decoration: none;
+}
+
+.layout2  .sidenav {
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+  background-color: #93cee2;
+  height: 30px;
+}
+.layout2 article{
+    width: 100%;
+    height: 120px;
+    background-color: #93cee2;
+    display: flex;
+    align-items: center;
+}
+.layout2  .sidebar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #93cee2;
+    margin: 10px 0px 10px 0px;
+}
+.layout2 footer {
+    background: #93cee2;
+    text-align: center;
+    height: 40px;
+  }
