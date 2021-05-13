@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: orangered;
+  --secondary-color: hotpink;
+  --base-measurement: 20px;
+  --text-color: #f3f3f3;
+}
+
+.box {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  width: calc(var(--base-measurement) * 10);
+  height: calc(var(--base-measurement) * 10);
+  line-height: calc(var(--base-measurement) * 10);
+}
+.box:last-child {
+  margin-top: var(--base-measurement);
+}
+.box2 {
+  background-color: var(--secondary-color);
+}
