@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.youtube__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+.left__header {
+  display: flex;
+  align-items: center;
+}
+.left__header img {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.center__header {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: auto;
+  border: 1px solid black;
+  outline: none;
+}
+.center__header > input {
+  flex: 1;
+  border: none;
+}
+
+.center__header i {
+  color: gray;
+  border-left: 1px solid #606060;
+  width: 40px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  margin-left: 2px;
+}
+.right__header {
+  display: flex;
+  align-items: center;
+}
+.right__header .avtar {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.right__header .mleft {
+  margin-right: 20px;
+}
