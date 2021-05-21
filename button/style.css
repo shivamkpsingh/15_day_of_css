@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.my_section{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.my__button{
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+   
+    border: 1px solid #fff;
+    color: #28b3d6;
+    cursor: pointer;
+}
+.button_2{
+    border-radius: 25px;
+}
+.button_3{
+    box-shadow: inset 8px 7px 11px  #bbb;
+}
