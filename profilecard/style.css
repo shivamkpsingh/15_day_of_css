@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: cadetblue; 
+}
+.profile__card{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+   
+}
+.profile__content{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    box-shadow: -30px 40px  40px rgba(143, 126, 126,1);
+}
+.profile__content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.profile__content h1{
+    color: #1414c7;
+}
+.profile__media{
+    margin-top: 20px;
+}
+.profile__media i{
+    margin: 5px;
+}
